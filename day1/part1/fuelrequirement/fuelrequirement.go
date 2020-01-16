@@ -1,4 +1,4 @@
-package fuelmasses
+package fuelrequirement
 
 import (
 	"bufio"
