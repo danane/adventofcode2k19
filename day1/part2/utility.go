@@ -4,7 +4,6 @@ import (
 	fuelmasses "github.com/danane/adventofcode2k19/day1/part1"
 )
 
-//FuelRequiredUpdated .
 func FuelRequiredUpdated(mass int) (total int) {
 	for {
 		fr := fuelmasses.FuelRequired(mass)
