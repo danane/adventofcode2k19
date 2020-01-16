@@ -1,7 +1,6 @@
-package fuelmassesv2_test
+package fuelrequirementv2
 
 import (
-	fuelmassesv2 "github.com/danane/adventofcode2k19/day1/part2"
 	"testing"
 )
 
@@ -18,7 +17,7 @@ func TestFuelRequiredUpdated(t *testing.T) {
 
 	for _, c := range cases {
 		t.Run(c.description, func(t *testing.T) {
-			got := fuelmassesv2.FuelRequiredUpdated(c.mass)
+			got := FuelRequiredUpdated(c.mass)
 
 			if got != c.fuel {
 				t.Errorf("got %d but expected %d", got, c.fuel)
